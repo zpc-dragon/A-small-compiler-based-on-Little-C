@@ -1,0 +1,6 @@
+前序遍历 
+= a -1 := b <= a 0 write a 
+中序遍历 
+a = -1 b := a <= 0 write a 
+后序遍历 
+a -1 = b a 0 <= := write a 

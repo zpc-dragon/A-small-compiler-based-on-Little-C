@@ -1,0 +1,6 @@
+前序遍历 
+int number res bool cond1 cond2 = number 1 := cond1 <= number 12 while cond1 = res - number * / number 3 3 := cond2 == res 0 if cond2 write number = number + number 1 := cond1 <= number 12 
+中序遍历 
+number int res cond1 bool cond2 number = 1 cond1 := number <= 12 cond1 while res = number - number / 3 * 3 cond2 := res == 0 cond2 if write number number = number + 1 cond1 := number <= 12 
+后序遍历 
+number res int cond1 cond2 bool number 1 = cond1 number 12 <= := cond1 res number number 3 / 3 * - = cond2 res 0 == := cond2 write number if number number 1 + = cond1 number 12 <= := while 

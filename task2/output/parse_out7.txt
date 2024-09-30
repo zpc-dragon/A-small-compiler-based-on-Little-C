@@ -1,0 +1,6 @@
+前序遍历 
+int a b c read a read b = a + + a 1 * * 2 3 4 = b / / * b 8 2 4 = c * + a b - a b write c 
+中序遍历 
+a int b c read a read b a = a + 1 + 2 * 3 * 4 b = b * 8 / 2 / 4 c = a + b * a - b write c 
+后序遍历 
+a b c int read a read b a a 1 + 2 3 * 4 * + = b b 8 * 2 / 4 / = c a b + a b - * = write c 

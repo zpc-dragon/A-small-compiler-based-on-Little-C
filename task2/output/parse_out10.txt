@@ -1,0 +1,6 @@
+前序遍历 
+int number i j bool cond flag read number = i 2 = flag true := cond && < i number flag while cond = j - number * / number i i := flag != j 0 = i + i 1 := cond && < i number flag if flag write number 
+中序遍历 
+number int i j cond bool flag read number i = 2 flag = true cond := i < number && flag cond while j = number - number / i * i flag := j != 0 i = i + 1 cond := i < number && flag flag if write number 
+后序遍历 
+number i j int cond flag bool read number i 2 = flag true = cond i number < flag && := cond j number number i / i * - = flag j 0 != := i i 1 + = cond i number < flag && := while flag write number if 

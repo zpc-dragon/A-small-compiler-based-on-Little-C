@@ -1,0 +1,24 @@
+//program10: test prime numbers.
+{	
+	int number,i,j;
+	bool cond,flag;
+	read number;	
+
+	i = 2;
+	flag = true;
+	cond := i<number && flag;
+
+	while cond do 
+	{
+		j=number-(number/i)*i;
+		flag:= j!=0;
+		i=i+1;
+		cond := i<number && flag;
+	}	
+	if flag then write number;	
+}
+/* 注意flag = true，目前源语言的文法中无法产生这一句子。
+ * 可修改原文法为：NOT→REL| !REL | true | false 
+ * 也可修改源程序为：flag = 1>0 ; 来修复这一bug。
+ */
+ 

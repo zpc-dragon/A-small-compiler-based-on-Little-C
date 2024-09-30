@@ -1,0 +1,6 @@
+前序遍历 
+int a b c int lg bool cond read a read b read c := cond > a b if cond = lg a = lg b := cond < lg c if cond = lg c write lg 
+中序遍历 
+a int b c lg int cond bool read a read b read c cond := a > b cond if lg = a lg = b cond := lg < c cond if lg = c write lg 
+后序遍历 
+a b c int lg int cond bool read a read b read c cond a b > := cond lg a = lg b = if cond lg c < := cond lg c = if write lg 

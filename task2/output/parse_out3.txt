@@ -1,0 +1,6 @@
+前序遍历 
+int a sum bool b = a 1 = sum 0 := b <= a 100 while b = sum + sum a = a + a 1 := b <= a 100 write sum 
+中序遍历 
+a int sum b bool a = 1 sum = 0 b := a <= 100 b while sum = sum + a a = a + 1 b := a <= 100 write sum 
+后序遍历 
+a sum int b bool a 1 = sum 0 = b a 100 <= := b sum sum a + = a a 1 + = b a 100 <= := while write sum 
