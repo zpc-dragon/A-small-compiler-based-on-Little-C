@@ -16,6 +16,6 @@ int main() {
     string outPath = "output/semantic_out";
     code_translate(1, 10, inPath, outPath);
 
-
+    return 0;
 
 }

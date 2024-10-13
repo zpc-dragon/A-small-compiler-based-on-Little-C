@@ -18,4 +18,5 @@ int main() {
         parse_out(getVector(input), build_program_tree, f);
         f.close();
     }
+    return 0;
 }

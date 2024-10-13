@@ -98,3 +98,22 @@ void tran2Terminal(int start, int end, string inPath, string outPath) {
     }
 
 }
+void inputLex(int start, int end) {
+    for (int index = start;index <= end;index++) {
+        string inname = "source/sourceProgram" + to_string(index) + ".txt";
+        string outname = "input/lex_out" + to_string(index) + ".txt";
+        // 如果存在outname文件，说明已经进行过词法分析
+        if (filesystem::exists(outname)) {
+            cout << outname << " exists" << endl;
+            continue;
+        }
+        single_process(index, "source/sourceProgram", "input/lex_out"); // 词法分析
+    }
+
+}
+void outputCode(int start, int end, string inPath, string outPath, int flag = 0) {
+    if (flag == 0)
+        tran2Terminal(start, end, inPath, outPath);
+    else
+        tran2File(start, end, inPath, outPath);
+}

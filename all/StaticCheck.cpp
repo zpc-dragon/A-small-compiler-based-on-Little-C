@@ -12,5 +12,7 @@ int main() {
     } else {
         cout << "静态语义检查失败" << endl;
     }
-    delete root;
+    free_tree(root);
+    return 0;
+
 }

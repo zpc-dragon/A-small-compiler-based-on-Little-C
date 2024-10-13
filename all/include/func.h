@@ -91,7 +91,17 @@ vector<node*> in_vector(node* root, vector<node*>& v) {
     }
     return v;
 }
-
+void free_tree(node* root) {
+    if (root) {
+        if (root->firstchild) {
+            free_tree(root->firstchild);
+        }
+        if (root->nextsibling) {
+            free_tree(root->nextsibling);
+        }
+        delete root;
+    }
+}
 vector<PSK> getVector(string file) {
     ifstream f(file);
     string s;
