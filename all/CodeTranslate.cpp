@@ -10,6 +10,7 @@ int main() {
 
     inputLex(1, 12); // 词法分析，将sourceProgram文件转换为lex_out文件
     outputCode(1, 12, inPath, outPath, 1); // 语法+语义分析，将lex_out文件转换为semantic_out文件
-
+    // 这里可以进一步优化，将词法分析和语法+语义分析合并为一个函数
+    // 留待后用
     return 0;
 }

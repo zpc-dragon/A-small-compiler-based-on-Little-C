@@ -108,7 +108,7 @@ void write(TokenCode code, FILE* fp, int row) {
 
             break;
         case 5:
-            fprintf(fp, "(%s, %d)\n", token.c_str(), code);
+            fprintf(fp, "(%s, %d)\n", token.c_str(), code);     //单词为标识符
             break;
     }
 }
@@ -146,6 +146,7 @@ bool isLetter(char letter) {
     if ((letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z'))
         return true;
     return false;
+    // return isalpha(letter);
 
 }
 
@@ -157,6 +158,7 @@ bool isDigit(char digit) {
     if (digit >= '0' && digit <= '9')
         return true;
     return false;
+    // return isdigit(digit);
 }
 
 FILE* readfile(string filename) {
@@ -166,6 +168,7 @@ FILE* readfile(string filename) {
     if (fp == NULL) {
         cout << "文件打开失败！" << endl;
         exit(0);
+        // throw "文件打开失败！";
     }
 
     return fp;
@@ -178,6 +181,7 @@ FILE* writefile(string filename) {
     if (fp1 == NULL) {
         cout << "文件打开失败！" << endl;
         exit(0);
+        // throw "文件打开失败！";
     }
     return fp1;
 }
