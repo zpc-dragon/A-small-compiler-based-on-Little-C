@@ -1,5 +1,5 @@
-# a-Small-C-Compiler-Frontend
-Design of a Small Compiler Frontend Based on Little C
+# A small compiler based on Little C
+Design of a Small Compiler  Based on Little C
 
 The project consists of four parts: pre-task, task 1, task 2, and task 3. 
 
